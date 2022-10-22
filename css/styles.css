@@ -25,6 +25,7 @@ font-family: 'Roboto', sans-serif; */
   --back-color: #2f303a;
   --btn-active: #188ce8;
   --team-bg: #f5f4fa;
+  --customer-color: #afb1b8;
 }
 
 p,
@@ -447,6 +448,38 @@ body {
 
 .soc-list-link:hover .soc-icon {
   fill: var(--white-color);
+}
+
+/* Customers */
+.customer-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.customer-list {
+  content: "";
+  height: 92px;
+  width: 170px;
+  border: 1px solid var(--customer-color);
+  border-radius: 4px;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.customer-list .customer-icon {
+  fill: var(--customer-color);
+}
+
+.customer-list:hover {
+  border-color: var(--btn-color);
+  cursor: pointer;
+}
+
+.customer-list:hover .customer-icon {
+  fill: var(--btn-color);
 }
 /* Footer */
 
