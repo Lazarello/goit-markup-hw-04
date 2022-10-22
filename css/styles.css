@@ -198,6 +198,11 @@ body {
   align-items: center;
 }
 
+.contact .item {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
 /* Hero */
 
 .hero {
